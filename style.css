@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html{
+    padding:0;
+    margin:0;
+    font-family: 'Inter', sans-serif;
+    background-color:#23252C;
+    
+}
+.app-container{
+    width:317px;
+    background: #1A1B21;
+    border-radius: 10px 10px 10px 10px;
+    margin:20px auto
+}
+.header{
+    width:317px;
+}
+.header img{
+    width:100%;
+     border-radius: 10px 10px 0px 0px;
+   
+}
+.header-sub{
+    padding-inline:35px;
+    padding-block:20px;
+    
+    
+    
+}
+.header h1 ,.header h4 , .header p{
+    text-align: center;
+    font-weight: 400;
+    line-height: normal; 
+    margin:0px;
+    
+}
+.header h1{
+color:white;
+font-size: 25px;
+font-weight: 700;
+}
+.header h4{
+color: #F3BF99;
+font-size: 12.8px;
+margin-block:5px 8px
+}
+.header p{
+color: #F5F5F5;
+font-size: 10.24px;
+line-height: 150%; /* 15.36px */ 
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap:17px;
+    margin-top:24px
+}
+.btn a{
+    text-decoration: none;
+    flex-basis: 48%;
+    padding: 9px 12px;
+    border-radius:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center 
+}
+.btn a:first-of-type{
+border-radius: 6px;
+border: 1px solid var(--gray-300, #D1D5DB);
+background: var(--white, #FFF);
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+.btn a:last-of-type{
+color:white;
+border-radius: 6px;
+background: #5093E2;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+svg{
+    margin-right:8px;
+}
+
+.About-section {
+    padding-inline:35px;
+   
+}
+.interest-container{
+    padding-inline:35px;
+    margin-bottom:24px;    
+}
+
+.About-section h2 , .interest-container h2{
+    color: #F5F5F5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%; /* 24px */
+    margin-bottom: 2px
+}
+.About-section p , .interest-container p{
+color: #DCDCDC;
+font-size: 10.24px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 15.36px */
+
+margin-top:0px;
+}
+.footer-container{
+    background-color:red;
+    display:flex;
+    justify-content: center;
+    padding-block:20px;
+    border-radius: 0px 0px 10px 10px;
+    background: #161619;
+    margin-bottom:20px; 
+    gap:24px
+}
